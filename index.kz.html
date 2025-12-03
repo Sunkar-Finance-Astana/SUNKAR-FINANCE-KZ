@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunkar Finance — Сіздің қаржыңыздағы дала рухы | Астана 2025</title>
+  <meta name="description" content="Астанадағы несие консалтингі. 200 млн теңгеге дейін 85% мақұлдаумен. Даланың еркіндігі мен күші әр несиеде. Астана, Алматы, Қазақстан. 60 секундта ықтималдықты есептеңіз.">
+  <meta name="keywords" content="несие брокері Астана 2025, несие алуға көмек Алматы, ипотека Астана 2025 барлық құрылысшылар, ЖК үшін несие 200 млнға дейін, несие рефинансирлеу Қазақстан">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦅</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; background: #0a0e27; color: white; }
+    h1, h2, h3 { font-family: 'Montserrat', sans-serif; }
+    .gold { color: #FFD700; }
+    .turquoise { color: #00B2A9; }
+    .orange { color: #FF9800; }
+    .hero-bg { background: linear-gradient(to bottom, #1A237E, #0a0e27); position: relative; overflow: hidden; }
+    .ornament-border { border-image: repeating-linear-gradient(45deg, #FFD700, #FFD700 4px, transparent 4px, transparent 8px) 1; }
+    #particles-js { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
+  </style>
+</head>
+<body x-data="{ city: 'Астана', purpose: 'қолма-қол', sum: 50, type: 'жеке тұлға', result: 78 }">
+
+  <!-- Фиксированная кнопка WhatsApp -->
+  <a href="https://wa.me/77052606667?text=Сәлеметсіз бе! Несие мақұлдау ықтималдығын есептегім келеді" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-2xl transition transform hover:scale-105 flex items-center justify-center">
+    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.297-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 5.615h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.265c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.7"/></svg>
+  </a>
+
+  <!-- ХЕДЕР -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0a0e27]/90 backdrop-blur-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap items-center justify-between">
+      <img src="sunkar-gold.png" alt="Sunkar Finance" class="h-12">
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#services" class="hover:gold transition">Қызметтер</a>
+        <a href="#calc" class="hover:gold transition">Есептеу</a>
+        <a href="#banks" class="hover:gold transition">Банктерге</a>
+        <a href="#franchise" class="hover:gold transition">Франшиза</a>
+        <a href="#agent" class="hover:gold transition">Агенттерге</a>
+      </nav>
+      <div class="flex items-center gap-4 text-sm">
+        <span>Астана • Алматы • Қазақстан</span>
+        <a href="index.html" class="hover:gold">RU/KZ</a>
+      </div>
+      <div class="flex gap-4">
+        <a href="https://wa.me/77052606667?text=Агент болғым келеді" class="orange px-5 py-2 rounded-full font-bold">Агент болу</a>
+        <a href="#calc" class="gold text-[#1A237E] px-5 py-2 rounded-full font-bold">Ықтималдық есептеу</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-bg min-h-screen flex items-center justify-center pt-24 relative">
+    <div id="particles-js"></div>
+    <div class="relative z-10 text-center px-6 max-w-5xl mx-auto">
+      <h1 class="text-5xl md:text-7xl font-bold mb-6 ornament-border">Сіздің қаржыңыздағы дала рухы</h1>
+      <p class="text-xl md:text-2xl mb-10 opacity-90">Қоғамдықтардың еркіндігі, қасқырлардың күші, көкжиектердің шексіздігі. 200 млн теңгеге дейін несие 85% мақұлдаумен. Желтоқсан 2025</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mb-12">
+        <div class="bg-white/5 backdrop-blur rounded-2xl p-6 text-center">
+          <div class="text-3xl gold font-bold">200 млн</div>
+          <div class="text-sm opacity-80">ЖК/ТОО үшін</div>
+        </div>
+        <div class="bg-white/5 backdrop-blur rounded-2xl p-6 text-center">
+          <div class="text-3xl gold font-bold">20 млн</div>
+          <div class="text-sm opacity-80">кепілсіз</div>
+        </div>
+        <div class="bg-white/5 backdrop-blur rounded-2xl p-6 text-center">
+          <div class="text-3xl gold font-bold">85%</div>
+          <div class="text-sm opacity-80">мақұлдау</div>
+        </div>
+        <div class="bg-white/5 backdrop-blur rounded-2xl p-6 text-center">
+          <div class="text-3xl gold font-bold">25+</div>
+          <div class="text-sm opacity-80">банк-серіктестер</div>
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="#calc" class="gold text-[#1A237E] px-10 py-5 rounded-full font-bold">Ықтималдықты есептеу</a>
+        <a href="#services" class="turquoise px-10 py-5 rounded-full font-bold">Астанадағы барлық қызметтер</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- УСЛУГИ -->
+  <section id="services" class="py-20 px-6 bg-gradient-to-b from-[#0a0e27] to-[#1A237E]">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-12 gold">Қызметтер дала гео-меткаларымен</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Астанада</h3>
+          <p class="text-2xl gold">Кепілсіз несие 20 млнға дейін</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Алматыда</h3>
+          <p class="text-2xl gold">ЖК үшін несие 200 млнға дейін</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Қазақстан бойынша</h3>
+          <p class="text-2xl gold">Ипотека толық кілт барлық құрылысшылар</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Астанада шұғыл</h3>
+          <p class="text-2xl gold">24 сағатта несие минимум құжаттар</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Кепілмен</h3>
+          <p class="text-2xl gold">Үй/авто 80 млнға дейін</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Рефинансирлеу</h3>
+          <p class="text-2xl gold">Пайыздарды төмендету қарыздарды біріктіру</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Автонесие</h3>
+          <p class="text-2xl gold">Бірінші төлемсіз жаңа/ескі</p>
+        </div>
+        <div class="bg-white/5 rounded-2xl p-8 text-center ornament-border">
+          <h3 class="text-xl turquoise">Анықтамасыз</h3>
+          <p class="text-2xl gold">10 млнға дейін өзін-өзі жұмыспен қамтығандарға</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КАЛЬКУЛЯТОР -->
+  <section id="calc" class="py-20 px-6 bg-gradient-to-b from-[#1A237E] to-[#0a0e27]">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4 gold">Мақұлдау ықтималдығын 60 секундта біліңіз (желтоқсан 2025)</h2>
+      <div class="bg-white/5 backdrop-blur-lg rounded-3xl p-8">
+        <div class="grid md:grid-cols-2 gap-8 mb-10">
+          <div>
+            <label class="block mb-3 text-left">Қала</label>
+            <select x-model="city" class="w-full bg-white/10 rounded-xl px-6 py-4 text-lg">
+              <option>Астана</option><option>Алматы</option><option>Басқа</option>
+            </select>
+          </div>
+          <div>
+            <label class="block mb-3 text-left">Несие мақсаты</label>
+            <select x-model="purpose" class="w-full bg-white/10 rounded-xl px-6 py-4 text-lg">
+              <option value="қолма-қол">Қолма-қол</option><option>Ипотека</option><option>Авто</option><option>Бизнес</option>
+            </select>
+          </div>
+          <div>
+            <label class="block mb-3 text-left">Сомасы, млн тг</label>
+            <input type="range" min="1" max="200" x-model.number="sum" class="w-full">
+            <div class="text-2xl gold font-bold" x-text="sum + ' млн'"></div>
+          </div>
+          <div>
+            <label class="block mb-3 text-left">Клиент түрі</label>
+            <select x-model="type" class="w-full bg-white/10 rounded-xl px-6 py-4 text-lg">
+              <option value="жеке тұлға">Жеке тұлға</option><option>ЖК</option><option>ТОО</option>
+            </select>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="text-6xl font-bold mb-4" :class="result > 80 ? 'gold' : 'orange'" x-text="result + '%'"></div>
+          <p class="text-xl mb-8"> <span x-text="city"></span> үшін ықтималдық</p>
+          <a :href="'https://wa.me/77052606667?text=95% дейін көтергім келеді! Қала: ' + city + ', Сома: ' + sum + ' млн, Түрі: ' + type" class="gold text-[#1A237E] px-12 py-5 rounded-full font-bold">Консультация алу → 95%</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ДЛЯ БАНКТЕРГЕ -->
+  <section id="banks" class="py-20 px-6 bg-gradient-to-b from-[#0a0e27] to [#1A237E]">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Кәсіби ынтымақтастық</h2>
+      <p class="text-xl mb-8 opacity-90">Құрметті әріптестер! Біз — толық досьемен сапалы клиенттер каналы. Банк процедураларын сақтаймыз. Өзара пайдалы серіктестікті талқылайық.</p>
+      <a href="https://wa.me/77052606667?text=Ынтымақтастықты талқылау (Аты, Телефон, Банк)" class="gold text-[#1A237E] px-12 py-5 rounded-full font-bold">Ынтымақтастықты талқылау</a>
+    </div>
+  </section>
+
+  <!-- ФРАНШИЗА -->
+  <section id="franchise" class="py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Қалаңызда Sunkar офисін ашыңыз</h2>
+      <p class="text-xl mb-8 opacity-90">Біз береміз:</p>
+      <ul class="text-left max-w-2xl mx-auto space-y-4">
+        <li>✅ Бренд және әдістер</li>
+        <li>✅ CRM-жүйе</li>
+        <li>✅ Оқыту</li>
+        <li>✅ Заңды қолдау</li>
+        <li>✅ Маркетинг жиынтығы</li>
+      </ul>
+      <a href="https://wa.me/77052606667?text=Бизнес-ұсынысты алу" class="gold text-[#1A237E] px-12 py-5 rounded-full font-bold">Бизнес-ұсынысты алу</a>
+    </div>
+  </section>
+
+  <!-- АГЕНТ БОЛУ -->
+  <section id="agent" class="py-20 px-6 bg-gradient-to-b from-[#0a0e27] to [#1A237E]">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Sunkar-мен айына 300 000 теңге табыңыз</h2>
+      <p class="text-xl mb-8 opacity-90">Шарттар:</p>
+      <ul class="text-left max-w-2xl mx-auto space-y-4">
+        <li>✅ Қашықтан/офисте</li>
+        <li>✅ Нөлден оқыту</li>
+        <li>✅ Комиссия 40%-дан</li>
+        <li>✅ Дайын клиенттер базасы</li>
+      </ul>
+      <a href="https://wa.me/77052606667?text=Агент болу" class="orange px-12 py-5 rounded-full font-bold">Агент болу</a>
+    </div>
+  </section>
+
+  <!-- ДОВЕРИЕ -->
+  <section id="trust" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 gold">Дала сенімділігі</h2>
+      <p class="text-xl mb-8 opacity-90">Астанада 500+ мақұлданған өтініштер</p>
+      <p class="text-xl mb-8 opacity-90">Серіктестер: Қазақстанның 15 банкі</p>
+      <p class="text-xl mb-8 opacity-90">Кепілдіктер: келісім, құпиялылық</p>
+      <p class="text-xl mb-8 opacity-90">Клиенттердің видео-пікірлері</p>
+    </div>
+  </section>
+
+  <!-- SEO-КОНТЕНТ -->
+  <section id="seo" class="py-20 px-6 bg-gradient-to-b from-[#0a0e27] to [#1A237E]">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-12 gold">Астанада несиелер 2025: мақұлдауды қалай алу</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <a href="#" class="bg-white/5 rounded-2xl p-8 text-left hover:bg-white/10 transition">
+          <h3 class="text-2xl gold">Астанада ипотека 2025: құрылысшылар рейтингі</h3>
+          <p class="mt-4 opacity-90">ТОП құрылысшылар, шарттар, алу жолы</p>
+        </a>
+        <a href="#" class="bg-white/5 rounded-2xl p-8 text-left hover:bg-white/10 transition">
+          <h3 class="text-2xl gold">Алматыда ЖК үшін несие: ТОП-5 банк</h3>
+          <p class="mt-4 opacity-90">Үздік банктер, ставкалар, құжаттар</p>
+        </a>
+        <a href="#" class="bg-white/5 rounded-2xl p-8 text-left hover:bg-white/10 transition">
+          <h3 class="text-2xl gold">Қазақстанда несие тарихын қалай жақсарту</h3>
+          <p class="mt-4 opacity-90">Қадамдар, кеңестер, мерзімдер</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФУТЕР -->
+  <footer class="bg-[#0a0e27] py-16 px-6">
+    <div class="max-w-7xl mx-auto text-center">
+      <img src="sunkar-gold.png" alt="Sunkar Finance" class="h-12 mx-auto mb-8">
+      <p class="text-xl mb-4">Сіздің қаржыңыздағы дала рухы</p>
+      <p class="text-lg mb-4">Астана: мекенжай, телефон</p>
+      <p class="text-lg mb-4">Алматы: мекенжай, телефон</p>
+      <a href="https://wa.me/77052606667" class="gold text-[#1A237E] px-10 py-5 rounded-full font-bold">Жылдам өтініш</a>
+      <p class="mt-8 text-sm opacity-70">Telegram: @sunkar_finance</p>
+    </div>
+  </footer>
+
+  <script>
+    // Частицы
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#FFD700" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5, "random": true },
+        "size": { "value": 3, "random": true },
+        "line_linked": { "enable": false },
+        "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "straight": false }
+      },
+      "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" } } }
+    });
+
+    // Калькулятор логикасы
+    document.addEventListener('alpine:init', () => {
+      Alpine.effect(() => {
+        let r = 78;
+        if (Alpine.store('data').city === 'Астана') r += 15;
+        if (Alpine.store('data').city === 'Алматы') r += 8;
+        if (Alpine.store('data').type !== 'жеке тұлға') r += 12;
+        if (Alpine.store('data').sum > 100) r -= 7;
+        Alpine.store('data').result = Math.min(98, r);
+      });
+    });
+  </script>
+</body>
+</html>
